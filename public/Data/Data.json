@@ -10,7 +10,8 @@
         "category": "Thriller",
         "tags": ["Suspense", "Political"],
         "publisher": "Raven Books",
-        "yearOfPublishing": 2023
+        "yearOfPublishing": 2023,
+        "bookClick": "Sort By"
         
     },
     {
@@ -38,7 +39,8 @@
         "category": "Mystery",
         "tags": ["Detective", "Crime"],
         "publisher": "Harbor Publishing",
-        "yearOfPublishing": 2024
+        "yearOfPublishing": 2024,
+        "bookClick": "Sort By"
     
     },
     {
@@ -66,7 +68,8 @@
         "category": "Fantasy",
         "tags": ["Magic", "Dark Fantasy"],
         "publisher": "Enchanted Press",
-        "yearOfPublishing": 2022
+        "yearOfPublishing": 2022,
+        "bookClick": "Sort By"
     },
     {
         "bookId": "9786789012345",
@@ -92,7 +95,8 @@
         "category": "Historical Fiction",
         "tags": ["WWII", "Family Saga"],
         "publisher": "Timeless Books",
-        "yearOfPublishing": 2023
+        "yearOfPublishing": 2023,
+        "bookClick": "Sort By"
     },
     {
         "bookId": "9783456789012",
@@ -118,6 +122,7 @@
         "category": "Horror",
         "tags": ["Supernatural", "Gothic"],
         "publisher": "Eerie Tales Publishing",
-        "yearOfPublishing": 2024
+        "yearOfPublishing": 2024,
+        "bookClick": "Sort By"
     }
 ]
