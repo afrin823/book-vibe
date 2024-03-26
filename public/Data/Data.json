@@ -11,6 +11,7 @@
         "tags": ["Suspense", "Political"],
         "publisher": "Raven Books",
         "yearOfPublishing": 2023
+        
     },
     {
         "bookId": "9780987654321",
@@ -24,6 +25,7 @@
         "tags": ["Time Travel", "Adventure"],
         "publisher": "Stellar Press",
         "yearOfPublishing": 2022
+       
     },
     {
         "bookId": "9785678901234",
@@ -37,6 +39,7 @@
         "tags": ["Detective", "Crime"],
         "publisher": "Harbor Publishing",
         "yearOfPublishing": 2024
+    
     },
     {
         "bookId": "9780123456789",
@@ -50,6 +53,7 @@
         "tags": ["Exploration", "Quest"],
         "publisher": "Voyager Books",
         "yearOfPublishing": 2023
+       
     },
     {
         "bookId": "9789876543210",

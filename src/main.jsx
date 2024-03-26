@@ -8,6 +8,7 @@ import {
 import Root from './Component/Root/Root';
 import Home from './Component/Home/Home';
 import Listed_Books from './Component/Listed_Books/Listed_Books';
+import BookDetailes from './Component/BookDetailes/BookDetailes';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/Books",
         element: <Listed_Books></Listed_Books>
+      },
+      {
+        path: "/book/:id",
+        element: <BookDetailes></BookDetailes>
       }
     ]
   },
