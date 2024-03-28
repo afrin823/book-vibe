@@ -8,7 +8,7 @@
         "totalPages": 352,
         "rating": 4.5,
         "category": "Thriller",
-        "tags": ["Suspense", "Political"],
+        "tags": ["#Suspense", "#Political"],
         "publisher": "Raven Books",
         "yearOfPublishing": 2023,
         "bookClick": "Sort By"
@@ -23,7 +23,7 @@
         "totalPages": 421,
         "rating": 4.8,
         "category": "Science Fiction",
-        "tags": ["Time Travel", "Adventure"],
+        "tags": ["#Time Travel", "#Adventure"],
         "publisher": "Stellar Press",
         "yearOfPublishing": 2022
        
@@ -37,7 +37,7 @@
         "totalPages": 289,
         "rating": 4.3,
         "category": "Mystery",
-        "tags": ["Detective", "Crime"],
+        "tags": ["#Detective", "#Crime"],
         "publisher": "Harbor Publishing",
         "yearOfPublishing": 2024,
         "bookClick": "Sort By"
@@ -52,7 +52,7 @@
         "totalPages": 512,
         "rating": 4.7,
         "category": "Adventure",
-        "tags": ["Exploration", "Quest"],
+        "tags": ["#Exploration", "#Quest"],
         "publisher": "Voyager Books",
         "yearOfPublishing": 2023
        
@@ -66,7 +66,7 @@
         "totalPages": 376,
         "rating": 4.6,
         "category": "Fantasy",
-        "tags": ["Magic", "Dark Fantasy"],
+        "tags": ["#Magic", "#Dark Fantasy"],
         "publisher": "Enchanted Press",
         "yearOfPublishing": 2022,
         "bookClick": "Sort By"
@@ -80,7 +80,7 @@
         "totalPages": 345,
         "rating": 4.4,
         "category": "Suspense",
-        "tags": ["Espionage", "Conspiracy"],
+        "tags": ["#Espionage", "#Conspiracy"],
         "publisher": "Secret Agent Publishing",
         "yearOfPublishing": 2024
     },
@@ -93,7 +93,7 @@
         "totalPages": 398,
         "rating": 4.5,
         "category": "Historical Fiction",
-        "tags": ["WWII", "Family Saga"],
+        "tags": ["#WWII", "#Family Saga"],
         "publisher": "Timeless Books",
         "yearOfPublishing": 2023,
         "bookClick": "Sort By"
@@ -107,7 +107,7 @@
         "totalPages": 431,
         "rating": 4.7,
         "category": "Mystery",
-        "tags": ["Cryptology", "Thriller"],
+        "tags": ["#Cryptology", "#Thriller"],
         "publisher": "Cipher Books",
         "yearOfPublishing": 2022
     },
@@ -120,7 +120,7 @@
         "totalPages": 367,
         "rating": 4.6,
         "category": "Horror",
-        "tags": ["Supernatural", "Gothic"],
+        "tags": ["#Supernatural", "#Gothic"],
         "publisher": "Eerie Tales Publishing",
         "yearOfPublishing": 2024,
         "bookClick": "Sort By"
