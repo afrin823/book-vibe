@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {saveReadBook} from '../../../src/Utility/utility';
+import { useEffect, useState } from "react";
 const BookDetailes = () => {
     const books = useLoaderData();
     const {bookId} = useParams();
@@ -14,6 +15,31 @@ const BookDetailes = () => {
         toast('Book Added To Book List')
     }
 
+    let wishListStore =[];
+    let saveWishListStore =  JSON.parse(localStorage.getItem("wishListStore"));
+    if ( saveWishListStore) {
+       
+        wishListStore = saveWishListStore;
+      }
+      const [store2, setStore2] = useState(wishListStore)
+
+      const handleWishList = (id) =>{
+        console.log(id);
+        const included2 = store2?.find((includedId) => includedId === id); 
+        if (included2 ) {
+            toast("Already Read otherwise wishListStore already   ")
+            
+          }else   {
+            const updateStore = [id, ...store2];
+            setStore2(updateStore);
+            toast("Wow  thanks wishListStore  ")
+    
+            
+          } 
+    }
+    useEffect(() => {
+        localStorage.setItem("wishListStore", JSON.stringify(store2));
+      }, [ store2]);
     return (
         <div className="mt-8 w-[90%] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
@@ -43,7 +69,7 @@ const BookDetailes = () => {
             </div>
             <div className="flex gap-4 my-12">
             <button onClick={handelApplyBook} className="btn w-28">Read</button>
-            <button className="btn w-28 btn-accent text-white">Wishlist</button>
+            <button onClick={()=>handleWishList(book.bookId)} className="btn w-28 btn-accent text-white">Wishlist</button>
             </div>
         </div>
         </div>

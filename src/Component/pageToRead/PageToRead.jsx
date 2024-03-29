@@ -26,7 +26,7 @@ const PageToRead = () => {
 
     return (
         <div>
-            <BarChart className='mx-auto my-8'
+            <BarChart className='mx-auto my-4'
                 width={900}
                 height={400}
                 data={data}
