@@ -1,3 +1,4 @@
+import React from 'react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { useLoaderData } from "react-router-dom";
 
@@ -7,13 +8,10 @@ const PageToRead = () => {
     const fallbackColor = 'gray'; // Fallback color for bars
 
     const data = [
-        { name: 'Page A', uv: 4000, pv: 2400, amt: 2400 },
-        { name: 'Page B', uv: 3000, pv: 1398, amt: 2210 },
-        { name: 'Page C', uv: 2000, pv: 9800, amt: 2290 },
-        { name: 'Page D', uv: 2780, pv: 3908, amt: 2000 },
-        { name: 'Page E', uv: 1890, pv: 4800, amt: 2181 },
-        { name: 'Page F', uv: 2390, pv: 3800, amt: 2500 },
-        { name: 'Page G', uv: 3490, pv: 4300, amt: 2100 },
+        { name: 'Book A', totalPages: 300 },
+        { name: 'Book B', totalPages: 250 },
+        { name: 'Book C', totalPages: 400 },
+        // Add more books as needed
     ];
 
     const getPath = (x, y, width, height) => {
@@ -30,12 +28,11 @@ const PageToRead = () => {
                 width={900}
                 height={400}
                 data={data}
-                
             >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
                 <YAxis />
-                <Bar dataKey="uv" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
+                <Bar dataKey="totalPages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
                     {data.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={colors[index % colors.length] || fallbackColor} />
                     ))}
