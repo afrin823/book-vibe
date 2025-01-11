@@ -2,6 +2,7 @@ import { CiStar } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 const AllBook = ({ bok }) => {
+    // book 
     const {bookId, Book_image, bookName,rating,author,category,publisher,tags } = bok;
     return (
         <div>

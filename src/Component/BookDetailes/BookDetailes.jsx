@@ -3,6 +3,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {saveReadBook} from '../../../src/Utility/utility';
 import { useEffect, useState } from "react";
+
+
 const BookDetailes = () => {
     const books = useLoaderData();
     const {bookId} = useParams();
